@@ -1,9 +1,10 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET7.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <Platforms>x64</Platforms>
-    <StartupObject>SysBot.Pokemon.ConsoleApp.Program</StartupObject>
+<TargetFramework>net7.0.9-windows</TargetFramework>    
+<StartupObject>SysBot.Pokemon.ConsoleApp.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
