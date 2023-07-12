@@ -1,6 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET7.Sdk">
 
-  <ItemGroup>
+<PropertyGroup>
+    <Platforms>x64</Platforms>
+<TargetFramework>net7.0.9-windows</TargetFramework>
+</PropertyGroup>
+  
+<ItemGroup>
     <PackageReference Include="Google.Apis" Version="1.59.0" />
     <PackageReference Include="Google.Apis.Auth" Version="1.59.0" />
     <PackageReference Include="Google.Apis.Core" Version="1.59.0" />
