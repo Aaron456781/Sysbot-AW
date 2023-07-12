@@ -2,7 +2,8 @@
 
   <PropertyGroup>
     <Platforms>x64</Platforms>
-  </PropertyGroup>
+<TargetFramework>net7.0.9-windows</TargetFramework>
+</PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="PKHeX.Core" Version="23.7.9" />
